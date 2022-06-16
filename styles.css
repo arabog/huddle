@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink-pry: hsl(322, 100%, 66%);
+    --pale-cyan-neutral: hsl(193, 100%, 96%);
+    --dark-cyan-neutral: hsl(192, 100%, 9%);
+    --grayish-blue-neutral: hsl(208, 11%, 55%);
+
+    --default-size: 18px;
+    
+}
