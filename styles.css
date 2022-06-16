@@ -165,3 +165,42 @@ section {
 .content.users {
     padding: 0 15px;
 }
+
+/* --------- */
+.footer {
+    background: var(--dark-cyan-neutral);
+    color: var(--white);
+    border-radius: 0;
+
+    margin-top: 270px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    border: 3px solid green;
+
+    position: relative;
+
+    padding:  120px 10px;
+}
+
+.first-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.migrate-footer {
+    position: absolute;
+    top: -120px;
+
+    background: var(--white);
+
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.2);
+
+}
+
+.footer-first > h4{
+    color: var(--dark-cyan-neutral);
+    white-space: nowrap;
+}
