@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
 *,
 *::before,
 *::after {
@@ -18,5 +23,15 @@
     --grayish-blue-neutral: hsl(208, 11%, 55%);
 
     --default-size: 18px;
-    
+}
+ 
+.header-wrapper {
+    padding: 20px 0;
+    overflow: hidden;
+
+    background-image: url(./images//bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right; */
+
 }
