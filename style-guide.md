@@ -44,3 +44,6 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
+
+svg color inversion
+https://blog.union.io/code/2017/08/10/img-svg-fill/
