@@ -370,7 +370,21 @@ section {
     
     .desktop > .container > .inner-container > .header-second.diff {
         margin-left: 20px;
-    }     
+    }   
+    
+    .migrate-footer {
+        width: 50%;    
+        text-align: center;
+    }
+
+    .footer-first > h4{
+        font-size: 25px;
+    }
+    
+    .footer-first > button {
+        padding: 15px 60px;
+        box-shadow: 0px 5px 10px 0px rgba(23,3,3,0.3);
+    }
 
     .footer-second {
         display: flex;
@@ -414,6 +428,8 @@ section {
     .third-section {
         width: 35%;
         margin-left: 10px;
+
+        padding-top: 35px;
 
         display: flex;
         flex-direction: column;
