@@ -151,6 +151,19 @@ section {
     width: 100%;
 }
 
+.mobile-view > .container > .header-second {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container > .header-second > .inner-container > img{
+    width: 100%;
+    margin-bottom: var(--margin-bottom);
+}
+
 /* -------------- */
 .container {
     padding: 35px 50px;
@@ -347,7 +360,7 @@ section {
     }
 
     .desktop > .container > .inner-container > .header-second {
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     
@@ -369,7 +382,7 @@ section {
     }
     
     .desktop > .container > .inner-container > .header-second.diff {
-        margin-left: 20px;
+        margin-left: 40px;
     }   
     
     .migrate-footer {
@@ -378,7 +391,7 @@ section {
     }
 
     .footer-first > h4{
-        font-size: 25px;
+        font-size: var(--default-size);
     }
     
     .footer-first > button {
