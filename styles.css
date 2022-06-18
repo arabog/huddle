@@ -342,6 +342,7 @@ section {
 
     .sub-heading {
         text-align: left;
+        white-space: nowrap;
     }
 
     .header.description, .content  {
