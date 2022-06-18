@@ -41,6 +41,10 @@ body {
     font-size: var(--default-size);
     font-family: var(--body-cta);
 }
+
+li {
+    list-style: none;
+}
  
 .header-wrapper {
     padding: 20px 0;
@@ -258,7 +262,6 @@ section {
 .second-section > ul > li{
     padding: 10px 2.5px;
     cursor: pointer;
-    list-style: none;
 }
 
 .third-section {
