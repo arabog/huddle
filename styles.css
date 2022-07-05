@@ -323,11 +323,11 @@ section {
 
     .header-cta {
         padding: 10px 15px;
+        transition: 1s;
     }
 
     .header-cta:hover {
-        width: 90%;
-        height: 90%;
+        padding: 15px 20px;
     }
 
     .mobile-view {
