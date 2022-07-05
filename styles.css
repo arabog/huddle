@@ -288,14 +288,11 @@ section {
     margin-bottom: 30px;
     
     cursor: pointer;
-    transition: width 5s height 5s;
 }
 
 .third-section > ul > li:hover {
     color: var(--grayish-blue-neutral);
     border: 1px solid var(--grayish-blue-neutral);
-    width: 45px;
-    height: 45px;
 }
 
 .copyright {
