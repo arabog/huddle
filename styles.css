@@ -338,6 +338,7 @@ section {
         display: block;
         width: 90%;
         margin: 0 auto;
+        transition: 2s;
     }
 
     .desktop-view:hover, .desktop:hover {
