@@ -291,6 +291,7 @@ section {
 .third-section > ul > li:hover {
     color: var(--grayish-blue-neutral);
     border: 1px solid var(--grayish-blue-neutral);
+    transition: 0.5s;
 }
 
 .copyright {
